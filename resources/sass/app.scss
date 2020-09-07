@@ -6,3 +6,24 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+* {
+    box-sizing: border-box;
+}
+
+.top-menu {
+    height: 60px;
+    li {
+        height: 100%;
+        .logo {
+            padding: 8px 20px;
+            height: 100%;
+        }
+    }
+}
+.logo {
+    height: 100%;
+    img {
+        height: 100%;
+    }
+}
