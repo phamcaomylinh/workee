@@ -1,9 +1,8 @@
 import React from 'react';
+import { Image } from 'antd';
 
 export default function Logo() {
     return(
-        <div class="logo">
-            <img src="assets/workee-logo.png" alt=""/>
-        </div>
+        <Image className="logo" src="assets/workee-logo.png" />
     )
 }

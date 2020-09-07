@@ -2,13 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 import TopMenu from "../components/menu/TopMenu";
-import 'antd/dist/antd.css';
-import Layout from "./layout/Layout";
+import AppLayout from "./layout/AppLayout";
 
 function App() {
     return (
         <BrowserRouter>
-            <Layout />
+            <AppLayout />
         </BrowserRouter>
     );
 }
