@@ -3,6 +3,7 @@ import { Breadcrumb, Layout, Menu } from "antd";
 import TopMenu from "../../components/menu/TopMenu";
 import SideMenu from "../../components/menu/SideMenu";
 import SubMenu from 'antd/lib/menu/SubMenu';
+import ProjectList from "../../components/project/ProjectList";
 
 export default function AppLayout() {
     const { Header, Content, Sider } = Layout;
@@ -30,7 +31,7 @@ export default function AppLayout() {
                 minHeight: 280
               }}
             >
-              Content
+              <ProjectList />
             </Content>
           </Layout>
         </Layout>
